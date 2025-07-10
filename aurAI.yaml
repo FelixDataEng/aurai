@@ -1,0 +1,21 @@
+orchestrator:
+  agent_list:
+    - agent_name: "Analytics Agent"
+    - agent_name: "Tool Use Agent"
+    - agent_name: "Planning Agent"
+
+utility_agents:
+  - agent_class: CustomAgent
+    agent_name: "Analytics Agent"
+    agent_description: "Analyzes historical data for demand spikes and supply delays."
+    config: {}
+
+  - agent_class: CustomAgent
+    agent_name: "Tool Use Agent"
+    agent_description: "Connects to ERP and CRM systems for real-time data."
+    config: {}
+
+  - agent_class: CustomAgent
+    agent_name: "Planning Agent"
+    agent_description: "Generates forecasts, replenishment plans, and scenario strategies."
+    config: {}
